@@ -1,0 +1,109 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fedae4;
+  color: black;
+  line-height: 1.6;
+}
+
+/* Container principal */
+header, section {
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho - perfil */
+.Perfil {
+  text-align: center;
+  padding: 12px;
+  display: flex;
+  background: #FFC9D7;
+}
+
+.Foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #000000; 
+}
+
+h1 {
+  margin: 50px ;
+  font-size: 30px;
+  color: black;
+}
+
+/* Títulos */
+h2, h3 {
+  color: black;
+  border-bottom: 2px solid #ed8cb0;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Seção Sobre */
+.Sobre p {
+  text-align: justify;
+}
+
+/* Lista de contato e redes sociais */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li img {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FF9CB5;
+}
+
+/* Tabela de experiências */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background: #FFBCCD;
+  color: black;
+}
+
+td img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
